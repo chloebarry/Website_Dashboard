@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSG Dashboard</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="jquery.rss.min.js"></script>
+    <script src="Script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="mh-100">
+
+        <!-- Nav bar -->
+        <nav id="nav" style=" ">
+
+            <div style="text-align: center; display: flex; align-items: center; margin: 20px 0; ">
+                
+
+                <img id="img1" src="SSGLogoCircleBlue.jpg" />
+
+                <h1 class="title" style="margin: auto 30px;">Dashboard</h1>
+
+                <img id="img2" src="SSGLogoCircleBlue.jpg" />
+
+            </div>
+
+    
+
+        </nav>
+
+        <!-- Main body -->
+
+        <section id="buttons">
+
+            <!-- iSAMS weblink -->
+            <div class="DashboardButton">
+
+                <a alt="iSAMS" href="https://sherbornegirls.isams.cloud/main/framework" target="_blank">
+                    <img id="iSAMS" class="DashboardButtonImage" src="iSAMS.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">iSAMS</p>
+
+            </div>
+
+            <!-- Cpoms weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://sherbornegirls.cpoms.net/" target="_blank">
+                    <img id="cpoms" class="DashboardButtonImage" src="CPOMS.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">CPOMS</p>
+
+            </div>
+
+            <!-- Every weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://www.every.education/PP/Issues/Add" target="_blank">
+                    <img id="every" class="DashboardButtonImage" src="Every.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">Every</p>
+
+            </div>
+
+            <!-- Evolve weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://evolve.edufocus.co.uk/evco10/evchome_public.asp?domain=sherborneschoolforgirls" target="_blank">
+                    <img id="evolve" class="DashboardButtonImage" src="Evolve2.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">Evolve</p>
+
+            </div>
+
+
+            <!-- SG Staff Sharepoint weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://sherbornegirls.sharepoint.com/sites/SG-Staff" target="_blank">
+                    <img id="staff" class="DashboardButtonImage" src="Sherborne_Girls.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">SG Staff</p>
+            </div>
+
+
+            <!-- 365 weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://www.office.com/" target="_blank">
+                    <img id="office" class="DashboardButtonImage" src="office_365.png" />
+
+                </a>
+
+                <p class="DashboardButtonText"> Office 365</p>
+
+            </div>
+
+
+            <!-- My School Portal weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://sherbornegirls.myschoolportal.co.uk/" target="_blank">
+                    <img id="portal" class="DashboardButtonImage" src="Sherborne_Girls.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">My School Portal</p>
+
+            </div>
+
+            <!-- socs weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://www.socscms.com/login/3695/staff" target="_blank">
+                    <img id="socs" class="DashboardButtonImage" src="SOCS.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">SOCS</p>
+
+            </div>
+
+
+
+            <!-- Kerboodle weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://www.kerboodle.com/users/login" target="_blank">
+                    <img id="kerboodle" class="DashboardButtonImage" src="Kerboodle.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">Kerboodle</p>
+
+            </div>
+
+
+
+            <!-- Parents Evening weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://sherborne.parentseveningsystem.co.uk/" target="_blank">
+                    <img id="parents" class="DashboardButtonImage" src="ParentsEveningSystem.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">Parents Evening</p>
+
+            </div>
+
+            <!-- School Booking System weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://sherbornegirls.roombookingsystem.co.uk/" target="_blank">
+                    <img id="booking" class="DashboardButtonImage" src="School-bookings.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">School Booking System</p>
+
+            </div>
+
+            <!-- Planet weblink -->
+            <div class="DashboardButton">
+
+                <a href="https://sherbornegirls.planetestream.com/Login.aspx" target="_blank">
+                    <img id="planet" class="DashboardButtonImage" src="Planet-Estream.png" />
+
+                </a>
+
+                <p class="DashboardButtonText">Planet E-stream</p>
+            </div>
+
+
+        </section>
+
+        <div style=" display: flex; flex-direction: column; align-items: center;">
+            <div id="arrow-container" class="bouncy">
+                <a id="arrow" href="#additionalInfo">
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <section id="additionalInfo">
+
+        <!-- Twitter small -->
+
+        <div class="twitter">
+
+            <h2 class="style">The Latest at SG </h2>
+
+            <a class="twitter-timeline"  data-height="500" href="https://twitter.com/SherborneGirls?ref_src=twsrc%5Etfw">Tweets from SherborneGirls</a>
+        </div>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <div id="term-dates-container">
+
+            <h2 class="style">Term Dates</h2>
+
+            <h3 id="term-name"></h3>
+            <div id="term-dates"></div>
+
+            <a id="term-dates-link" href="https://www.sherborne.com/about-us/key-information/term-dates" target="_blank">Click here for more term dates.</a>
+
+        </div>
+
+    </section>
+
+
+   
+
+
+</body>
+</html>
